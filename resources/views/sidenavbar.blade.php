@@ -15,6 +15,7 @@ body {
     padding-top: 20px;
 }
 
+
 .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -45,5 +46,7 @@ body {
   <a href="create">Create</a>
   <a href="studentlist">Student List</a>
   <a href="edit">Edit/Delete Student</a>
-  {{-- <a href="#contact">Contact</a> --}}
+  <a href="create_faculty">Create Faculty</a>
+  <a href="facultylist">Faculty List</a>
+  <a href="edit_faculty">Edit/Delete Faculty</a>
 </div>

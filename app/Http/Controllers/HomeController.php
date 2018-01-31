@@ -58,4 +58,21 @@ class HomeController extends Controller
      $student->save();
      return back();
     }
+
+    public function store_faculty(Request $request)
+    {
+     $this->validate($request,[
+       'firstname' => 'required',
+       'lastname' => 'required',
+       'email' => 'required',
+       'phone' => 'required'
+     ]);
+     $faculty = new Faculty;
+     $faculty->first_name = $request->firstname;
+     $faculty->last_name = $request->lastname;
+     $faculty->email = $request->email;
+     $faculty->phone = $request->phone;
+     $faculty->save();
+     return back();
+    }
   }
