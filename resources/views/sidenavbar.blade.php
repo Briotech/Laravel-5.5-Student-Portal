@@ -4,8 +4,8 @@ body {
 }
 
 .sidenav {
-    height: 300px;
-    width: 90px;
+    height: 360px;
+    width: 95px;
     position: fixed;
     z-index: 1;
     top: 150px;
@@ -43,10 +43,13 @@ body {
 <body>
 
 <div class="sidenav">
-  <a href="create">Create</a>
+  <a href="create">Create Student</a>
   <a href="studentlist">Student List</a>
   <a href="edit">Edit/Delete Student</a>
   <a href="create_faculty">Create Faculty</a>
   <a href="facultylist">Faculty List</a>
   <a href="edit_faculty">Edit/Delete Faculty</a>
+  <a href="create_course">Create Course</a>
+  <a href="courselist">Course List</a>
+  <a href="edit_course">Edit/Delete Course</a>
 </div>
